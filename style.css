@@ -1,33 +1,40 @@
 body {
-	background-color: darkgrey;
+	background-color: #A2CDBC;
 	font-size: 100%
 }
 
 #title {
-	color: white;
+	color: #A2CDBC;
 	font-size: 1.5em;
 	font-family: sans-serif;
+	padding: .5em;
+	width: 100%;
+	margin: .5em;
 }
 
 #mainColumn {
-	margin: 0 auto;
-	width: 90%;
+	margin: .5em;
+	width: 150%;
+	color: #80AB99;
 }
 #nav {
-	width: 20%;
+	width: 10%;
 	float: left;
-	background: lightgrey;
-	padding: 0 .25em;
+	background: white;
+	padding: 0 .1em;
+	color: #FFA5AA;
+	background-color: white;
 }
 #nav h2{
 	font-size:1em;
 }
 #content {
-	float: left;
+	float: center;
 	width: 75%;
 	background-color: white;
 	padding: 1em;
 	font-family: serif;
+	
 }
 #illustration {
 	text-align: center;
